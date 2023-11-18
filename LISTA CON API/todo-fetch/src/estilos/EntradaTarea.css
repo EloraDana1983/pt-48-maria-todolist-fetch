@@ -1,0 +1,18 @@
+.head-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;     
+  }
+  .task-input{
+    width: 350px;
+    font-size: 18px;
+    background-color: #F29232;
+    padding: 14px 32px 14px 16px;
+    border-radius: 20px;
+    border: 2px solid #F1E189;
+    outline: none;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }

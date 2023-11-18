@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, 
+body {
+  color: white;
+  background-color: #01C5C5;
+  font-family: Lato, sans-serif;
+  margin-top: 40px;
+}
+h1 {
+  color: white;
+  font-size: 35px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.add-task {
+  width: 600px;
+  min-height: 500px;
+  background-color: #B8DE70;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 26px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
