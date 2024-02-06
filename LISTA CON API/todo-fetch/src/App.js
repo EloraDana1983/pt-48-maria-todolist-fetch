@@ -1,6 +1,4 @@
-
-import './App.css';
-import ListaDeTareas from './components/ListaDeTareas';
+import ListaDeTareas from "./components/ListaDeTareas";
 
 function App() {
   return (
@@ -8,7 +6,7 @@ function App() {
     <div className="card-list">
       
       <div className='add-task'>
-        <h1>Mis tareas</h1>
+        
         <ListaDeTareas />
         
       </div>

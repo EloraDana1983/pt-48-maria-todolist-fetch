@@ -24,7 +24,6 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  
 }
 
 .add-task {
@@ -37,4 +36,53 @@ h1 {
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.registro {
+  width: 50%;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  display: inline-block; /* Alinea horizontalmente */
+  vertical-align: top; /* Alinea en la parte superior */
+}
+
+.tareas {
+  width: 50%;
+  padding: 20px;
+  display: inline-block; /* Alinea horizontalmente */
+  vertical-align: top; /* Alinea en la parte superior */
+}
+
+.registro h4 {
+  margin-bottom: 10px;
+}
+
+.registro ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.registro ul li {
+  margin-bottom: 10px;
+}
+
+.registro input[type="text"] {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 80%;
+}
+
+.registro button,
+.tareas button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px; /* Añade un margen entre el input y el botón */
+}
+
+.registro button:hover,
+.tareas button:hover {
+  background-color: #0056b3;
 }
